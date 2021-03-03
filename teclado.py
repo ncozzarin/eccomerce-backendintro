@@ -3,7 +3,7 @@ class Teclado(DispositivoEntrada):
     contador_teclados = 0
     def __init__(self,marca,tipo_entrada):
         Teclado.contador_teclados += 1
-        self.__id_reclado = "R" + str(Teclado.contador_teclados)
+        self.__id_teclado = Teclado.contador_teclados
         self._marca = marca
         self._tipo_entrada = tipo_entrada
 
