@@ -11,3 +11,4 @@ class Computadora:
 
     def __str__(self):
         return "Nombre: {0} Monitor: {1} Teclado: {2} Raton: {3}".format(self.__nombre,self.__monitor,self.__teclado,self.__raton)
+
